@@ -4,12 +4,12 @@ os:
 matrix:
   include
   -os:linux
-    env: COMPILER_NAME=gcc CXX=g++-5 CC=gcc-5
+    env:COMPILER_NAME=gcc CXX=g++-5 CC=gcc-5
     addons:
       apt:
         packages:
           - g++-5
-        sources: &sources
+        sources:&sources
           - llvm-toolchain-precise
           - ubuntu-toolchain-r-test
 script:
