@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
 
-
 project (Сalculator_example)
 set(SOURCES main.cpp)
 add_executable (${PROJECT_NAME} ${SOURCES})
