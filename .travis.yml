@@ -9,9 +9,9 @@ matrix:
        apt:
          packages:
           - g++-5
-           sources: &sources
-             - llvm-toolchain-precise
-             - ubuntu-toolchain-r-test
+          sources: &sources
+            - llvm-toolchain-precise
+            - ubuntu-toolchain-r-test
 script:
 - mkdir build
 - cd build
