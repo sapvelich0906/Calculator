@@ -1,4 +1,4 @@
-c)  370 KB
+
 /*
  *  Catch v1.5.7
  *  Generated: 2016-09-27 10:45:46.824849
@@ -39,7 +39,7 @@ c)  370 KB
 #       pragma clang diagnostic ignored "-Wcovered-switch-default"
 #    endif
 #elif defined __GNUC__
-#    pragma GCC diagnostic ignored "-Wvariadic-macros"
+#    pragma GCC diagnostic ignored "-Wunused-variable"
 #    pragma GCC diagnostic ignored "-Wunused-variable"
 #    pragma GCC diagnostic push
 #    pragma GCC diagnostic ignored "-Wpadded"
