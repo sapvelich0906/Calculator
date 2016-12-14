@@ -30,28 +30,28 @@ SCENARIO("calculator multiplication", "[multiplication]") {
 }
 SCENARIO("calculator quotient", "[quotient]") {
     double a = 16.0;
-    double b = 8.0;
+    double b = 0;
     int c = 3;	
     
-    double rv = quotient( a, b );
+    double rv = *quotient( a, b );
     
-	REQUIRE( rv == 2.0 );
+	REQUIRE( rv == nullptr );
 }
 SCENARIO("calculator power", "[power]") {
-    double a = 16.0;
+    double a = 2.0;
     double b = 8.0;
-    int c = 3;
+    int c = -3;
 	
     double rv = power( a, c );
     
-	REQUIRE( rv == 4096.0 );
+	REQUIRE( rv == 0.125 );
 }
 SCENARIO("calculator squareroot", "[squareroot]") {
-    double a = 16.0;
+    double a = -16;
     double b = 8.0;
     int c = 3;	
     
-    double rv = squareroot( a );
+    double rv = *squareroot( a );
     	
-REQUIRE( rv == 4.0 );
+REQUIRE( rv == nullptr );
 }
