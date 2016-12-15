@@ -10,7 +10,7 @@ double multiplication(double a, double b)
 {	
         return a * b;
 }
-long double * quotient(double a, double b)
+long double * quotient(long double a,  long double b)
 {	
 	if (b!=0)
 	{
