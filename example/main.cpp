@@ -14,7 +14,7 @@ int main()
         cout << roundp(sumary(a, b)) << endl;	
         cout << roundp(differense(a, b)) << endl;	
         cout << roundp(multiplication(a, b)) << endl;
-	long double * res = quotient(a, b);
+	double * res = quotient(a, b);
 	if (res!=nullptr)
 		cout << "a / b = " << * res << endl;
 	else
