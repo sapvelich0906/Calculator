@@ -33,7 +33,7 @@ SCENARIO("calculator quotient", "[quotient]") {
     double b = 0;
     int c = 3;	
     
-    double rv = *quotient( a, b );
+    double *rv = quotient( a, b );
     
 	REQUIRE( rv == nullptr );
 }
@@ -51,7 +51,7 @@ SCENARIO("calculator squareroot", "[squareroot]") {
     double b = 8.0;
     int c = 3;	
     
-    double rv = *squareroot( a );
+    double *rv = squareroot( a );
     	
 REQUIRE( rv == nullptr );
 }
