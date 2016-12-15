@@ -10,11 +10,11 @@ double multiplication(double a, double b)
 {	
         return a * b;
 }
-long double * quotient(long double a,  long double b)
+double * quotient(double a, double b)
 {	
 	if (b!=0)
 	{
-	        long double *p = new long double;
+	        double *p = new double;
 		*p = a / b;
 		return p;
 	}
